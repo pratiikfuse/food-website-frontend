@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+*{
+    font-family: 'Poppins';
+    background-color: #FFF;
+
+}
+
+
+nav{
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.logo>img{
+    width: 10vw;
+    height: 5vh;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color:gray;
+    font-size: 12px;
+}
+
+.search-logo{
+    position: absolute;
+    right: 7px;
+    top: 8px;
+    border-left: 1px solid black;
+    padding-left: 5px;
+}
+
+.input-search div input{
+    height: 30px;
+    width: 15vw;
+    background-color: white;
+    border: 0.5px solid beige;
+    border-radius: 15px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+
+main{
+    width: 75vw;
+    margin: auto;
+}
+.hero{
+    width:100%;
+}
+.hero-left{
+    width: 50%;
+    height: 100%;
+}
+.hero-right{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+.hero-right img{
+    width:100%;
+    margin-top: -10px;
+}
+
+.hero-left{
+    padding-top: 50px;
+}
+.hero-left .hero-left-container p:nth-child(1){
+    padding: 5px;
+    background-color: #FDECEC;
+    width: fit-content;
+    font-size: 12px;
+    border-radius: 20px;
+    
+}
+
+.hero-left p img{
+    width: 25px;
+    border-radius: 50%;
+}
+
+.your-door{
+    color:rgba(249, 74, 61, 1);
+}
+
+.hero-left-p-2{
+    color: gray;
+    width:100%;
+    font-size: 18px;
+}
+
+.hero-left-container{
+    width:60%;
+    height: 100%;
+}
+
+.explore{
+    background-color: rgba(249, 74, 61, 1);
+    color:white;
+    font-size: 12px;
+    border:none;
+    border-radius: 10px;
+    padding: 8px;
+    width: fit-content;
+}
+
+.best{
+    width: 100%;
+    height:35%;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.best-child {
+    width: 250px;
+    height: 100%;
+    border: none;
+    box-shadow: 4px 4px 10px gray;
+}
+
+
+#best-child-1 p{
+    font-size: 12px;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+
+
+
+.front{
+    width: 100px;
+}
+
+#front-third{
+    width:90px;
+}
+
+.best-para{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left:30px;
+    margin-top: 20px;
+}
+
+
+
+#best-child-1{
+    box-shadow: none;
+}
+
+
+.special{
+    width: 100%;
+    padding-top: 50px;
+    margin-top: 100px;
+}
+
+
+.special-nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.special-card-container{
+    width: 100%;
+}
+
+.special-card{
+    width:300px;
+    height:85%;
+}
+
+.special-card p{
+    font-size: 12px;
+}
+
+.special-card img:nth-child(1){
+    width: 120px;
+}
+.special-card img:nth-child(2){
+    width: 70px;
+}
+
+.special-card button{
+    font-size: 12px;
+    width: fit-content;
+}
+
+#fries-img{
+    width: 100px;
+}
+
+#noodels-img{
+    width: 120px;
+}
+
+
+.reviews{
+    background-color: #F8F8F8;
+    margin-top:10vh;
+    width:100%;
+    padding: 100px;
+}
+
+.reviews-left{
+    background-color: #F8F8F8;
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.review-card{
+
+    width: fit-content;
+    padding: 5px;
+    padding-left: 5px;
+    background-color:#F8F8F8 ;
+    padding-right: 120px;
+}
+
+.review-card:hover{
+    background-color: white;
+}
+
+.review-card img{
+    border-radius: 50%;
+}
+
+.review-name{
+    font-weight: bold;
+}
+
+.review-position{
+    font-size: 10px;
+}
+
+
+/*  */
+::-webkit-scrollbar {
+    width: 2px;
+    border-radius:20px ;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: lightgray;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: black;
+  }
+
+  .reviews-right{
+    width: 50%;
+    height: 100%;
+    background-color:#F8F8F8 ;
+
+  }
+
+
+  .reviews-right-red{
+    color:#F94A3D;
+  }
+
+  .reviews-right-star{
+    width: 80px;
+  }
+
+  .user-review{
+    font-size: 12px;
+    color: gray;
+    background-color:#F8F8F8 ;
+  }
+
+  .reviews-right *{ 
+    background-color:#F8F8F8 ;
+  }
+
+  
+
+  .footer{
+    width: 100%;
+    background-color:   #FDEEF3 ;
+    padding: 70px;
+  }
+
+  .footer-col-1{
+    width:300px;
+  }
+  .footer-col-1 img:nth-child(1){
+    width: 150px;
+    margin: 0;
+  }
+
+ .social-media{
+    width:100px;
+ }
+
+  .footer-col-1 p{
+    font-size: small;
+    color: gray;
+  }
+
+
+  .footer-bottom ul li a{
+    text-decoration: none;
+    color:gray;
+    font-size: small;
+  }
+
+  .footer *{
+   background-color:   #FDEEF3 ;
+  }
+
+  .mobile-section-bg{
+    width:100%;
+    height: 400px;
+    background-color: #F94A3D;
+    border-radius: 20px 0px 0px 20px;
+  }
+
+  .mobile-section{
+    width:100%;
+    padding: 50px;
+    padding-bottom: 400px;
+  }
+
+  .mobile{
+    width: 300px;
+    height: 530px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+
+.left-mobile-section{
+    width: fit-content;
+    border-radius: 20px;
+    margin-left: 100px;
+    background-color:#F94A3D;
+    padding-top: 80px;
+    overflow: hidden;
+}
+
+.right-mobile-section{
+    background-color:#F94A3D; 
+    padding-top: 100px; 
+}
+
+
+.nav-mobile{
+    width:95%;
+    margin-left: 10px;
+    margin-right: 12px;
+    border-radius: 25px;
+}
+
+.nav-mobile img{
+    width: 50px;
+    border-radius: 10px;
+}
+
+
+.food-card-container{
+    width: 100%;
+}
+
+.food-card{
+    width: 50%;
+    height: 200px;
+}
+
+.food-card img{
+    margin-top: 10px;
+    width:120px;
+    border-radius: 50%;
+
+}
+
+#second-food{
+    width: 90px;
+    height: 90px;
+    border-radius:50px ;
+}
+
+.food-3 img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.mobile-footer{
+    margin-top: 40px;
+    width: 100%;
+    border-top: 1px solid black;
+    padding: 10px;
+}
+
+
+
+.mobile-footer-text{
+    font-size: 12px;
+}
+
+
+
+
+.mobile-footer-cart{
+    margin-top: -20px;
+}
+
+.right-mobile-section{
+    width:100%;
+    background-color: #F94A3D;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.right-mobile-section h3{
+    background-color: #F94A3D;
+    font-size: 34px;
+    color:white;
+    font-weight: 800;
+}
+
+.right-mobile-section p{
+    background-color: #F94A3D;
+    font-size: 10px;
+    color:white;
+    font-weight: 200;
+}
+
+.get-it img{
+    width: 100px;
+    background-color: #F94A3D;
+    margin-left: 20px;
+}
+
+.get-it{
+    width: 300px;
+    background-color: #F94A3D;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+

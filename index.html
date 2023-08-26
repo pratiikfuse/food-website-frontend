@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Food Delivery System</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="logo d-flex justify-content-around align-items-center">
+        <img src="./assets/logo.png" alt="" />
+        <div class="nav-links">
+          <ul class="d-flex align-items-center gap-4 list-unstyled m-0">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Food</a></li>
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </div>
+        <div class="nav-col-3">
+          <div class="input-search d-flex align-items-center gap-4">
+            <div class="position-relative">
+              <input type="text" placeholder="Search your item" />
+              <img class="search-logo" src="./assets/search-logo.svg" alt="" />
+            </div>
+            <img src="./assets/bag.svg" alt="" />
+            <button class="btn btn-danger fw-lighter">Sign in</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="hero d-flex">
+        <div class="hero-left">
+          <div class="hero-left-container m-0 d-flex flex-column gap-3">
+            <p class="m-0">
+              More than Faster
+              <img src="./assets/hero/finger-chips.svg" alt="" />
+            </p>
+            <div>
+              <h2 class="m-0 p-0 fw-bold fs-2">
+                Get Your Cuisine<br />
+                delivered right to<br />
+              </h2>
+              <h2 class="fw-bold m-0 fs-2 your-door">your door</h2>
+            </div>
+            <p class="hero-left-p-2">
+              Food that is delivered at the right time. The trendy food delivery
+              partner. Good food is what we deliver. Your hunger companion.
+            </p>
+            <button class="explore">Explore Food</button>
+          </div>
+        </div>
+        <div class="hero-right d-flex justify-content-start">
+          <img src="./assets/delivery-image.png" alt="" />
+        </div>
+      </div>
+
+      <div class="best d-flex gap-4">
+        <div class="best-child d-flex flex-column gap-3" id="best-child-1">
+          <h2 class="fw-bold">
+            Why we are<br />
+            Best in our<br />
+            Town
+          </h2>
+          <p>
+            whole grains and low-fat dairy can<br />
+            help to reduce your risk of heart<br />
+            disease by maintaining blood<br />pressure and
+          </p>
+        </div>
+        <div class="best-child d-flex flex-column justify-content-center">
+          <div class="d-flex justify-content-center">
+            <img class="front" src="./assets/best/chicken.svg" alt="" />
+          </div>
+          <p class="best-para">Choose<br />Your Favorite<br />Food</p>
+        </div>
+        <div class="best-child delivery">
+          <div class="d-flex justify-content-center">
+            <img class="front" src="./assets/best/scooty.svg" alt="" />
+          </div>
+          <p class="best-para">
+            Get delivery <br />at your door<br />
+            step
+          </p>
+        </div>
+        <div class="best-child">
+          <div class="d-flex justify-content-center">
+            <img
+              class="front"
+              id="front-third"
+              src="./assets/best/mobile.svg"
+              alt=""
+            />
+          </div>
+          <p class="best-para">
+            We have<br />
+            400+ Review<br />On our app
+          </p>
+        </div>
+      </div>
+
+      <div class="special">
+        <h2 class="text-center fw-bold">Try Our Special Recipes</h2>
+        <div class="special-nav">
+          <ul class="d-flex justify-content-center gap-5">
+            <li><a href="">Fast Food</a></li>
+            <li><a href="">Rice Menu</a></li>
+            <li><a href="">Desserts</a></li>
+            <li><a href="">Coffee</a></li>
+            <li><a href="">Pizza</a></li>
+            <li><a href="">See All Product</a></li>
+          </ul>
+          <hr />
+        </div>
+        <div class="special-card-container d-flex gap-3">
+          <div
+            class="special-card d-flex flex-column gap-3 justify-content-center align-items-center"
+          >
+            <img src="./assets/special/chicken.svg" alt="" />
+            <img src="./assets/special/stars.svg" alt="" />
+            <p class="m-0 fw-bold">Crispy Fried Chicken</p>
+            <p class="m-0">
+              Price <span class="text-danger fw-bold">$ 13.00</span>
+            </p>
+            <button class="btn btn-outline-danger fw-bold">Add to cart+</button>
+          </div>
+          <div
+            class="special-card d-flex flex-column gap-3 justify-content-center align-items-center"
+          >
+            <img src="./assets/special/burger.svg" alt="" />
+            <img src="./assets/special/stars.svg" alt="" />
+            <p class="m-0 fw-bold">Burger Patty Recipe</p>
+            <p class="m-0">
+              Price <span class="text-danger fw-bold">$ 13.00</span>
+            </p>
+            <button class="btn btn-outline-danger fw-bold">Add to cart+</button>
+          </div>
+          <div
+            class="special-card d-flex flex-column gap-3 justify-content-center align-items-center"
+          >
+            <img id="noodels-img" src="./assets/special/noodels.svg" alt="" />
+            <img src="./assets/special/stars.svg" alt="" />
+            <p class="m-0 fw-bold">Must-Try Dishes</p>
+            <p class="m-0">
+              Price <span class="text-danger fw-bold">$ 13.00</span>
+            </p>
+            <button class="btn btn-outline-danger fw-bold">Add to cart+</button>
+          </div>
+          <div
+            class="special-card d-flex flex-column gap-3 justify-content-center align-items-center"
+          >
+            <img id="fries-img" src="./assets/special/fries.svg" alt="" />
+            <img src="./assets/special/stars.svg" alt="" />
+            <p class="m-0 fw-bold">Must-Try Dishes</p>
+            <p class="m-0">
+              Price <span class="text-danger fw-bold">$ 13.00</span>
+            </p>
+            <button class="btn btn-outline-danger fw-bold">Add to cart+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews d-flex gap-5">
+        <div class="reviews-left d-flex gap-3 flex-column">
+          <div
+            class="review-card d-flex justify-content-center align-items-center gap-2"
+          >
+            <img src="./assets/reviews/first.png" alt="" />
+            <div class="review-data">
+              <p class="review-name m-0">Rosele Desoza</p>
+              <p class="review-position m-0">Marketing Coordinator</p>
+            </div>
+          </div>
+          <div
+            class="review-card d-flex justify-content-center align-items-center gap-2"
+          >
+            <img src="./assets/reviews/first.png" alt="" />
+            <div class="review-data">
+              <p class="review-name m-0">Rosele Desoza</p>
+              <p class="review-position m-0">Marketing Coordinator</p>
+            </div>
+          </div>
+          <div
+            class="review-card d-flex justify-content-center align-items-center gap-2"
+          >
+            <img src="./assets/reviews/first.png" alt="" />
+            <div class="review-data">
+              <p class="review-name m-0">Rosele Desoza</p>
+              <p class="review-position m-0">Marketing Coordinator</p>
+            </div>
+          </div>
+          <div
+            class="review-card d-flex justify-content-center align-items-center gap-2"
+          >
+            <img src="./assets/reviews/first.png" alt="" />
+            <div class="review-data">
+              <p class="review-name m-0">Rosele Desoza</p>
+              <p class="review-position m-0">Marketing Coordinator</p>
+            </div>
+          </div>
+          <div
+            class="review-card d-flex justify-content-center align-items-center gap-2"
+          >
+            <img src="./assets/reviews/first.png" alt="" />
+            <div class="review-data">
+              <p class="review-name m-0">Rosele Desoza</p>
+              <p class="review-position m-0">Marketing Coordinator</p>
+            </div>
+          </div>
+          <div
+            class="review-card d-flex justify-content-center align-items-center gap-2"
+          >
+            <img src="./assets/reviews/first.png" alt="" />
+            <div class="review-data">
+              <p class="review-name m-0">Rosele Desoza</p>
+              <p class="review-position m-0">Marketing Coordinator</p>
+            </div>
+          </div>
+          <div
+            class="review-card d-flex justify-content-center align-items-center gap-2"
+          >
+            <img src="./assets/reviews/first.png" alt="" />
+            <div class="review-data">
+              <p class="review-name m-0">Rosele Desoza</p>
+              <p class="review-position m-0">Marketing Coordinator</p>
+            </div>
+          </div>
+          <div
+            class="review-card d-flex justify-content-center align-items-center gap-2"
+          >
+            <img src="./assets/reviews/first.png" alt="" />
+            <div class="review-data">
+              <p class="review-name m-0">Rosele Desoza</p>
+              <p class="review-position m-0">Marketing Coordinator</p>
+            </div>
+          </div>
+          <div
+            class="review-card d-flex justify-content-center align-items-center gap-2"
+          >
+            <img src="./assets/reviews/first.png" alt="" />
+            <div class="review-data">
+              <p class="review-name m-0">Rosele Desoza</p>
+              <p class="review-position m-0">Marketing Coordinator</p>
+            </div>
+          </div>
+          <div
+            class="review-card d-flex justify-content-center align-items-center gap-2"
+          >
+            <img src="./assets/reviews/first.png" alt="" />
+            <div class="review-data">
+              <p class="review-name m-0">Rosele Desoza</p>
+              <p class="review-position m-0">Marketing Coordinator</p>
+            </div>
+          </div>
+          <div
+            class="review-card d-flex justify-content-center align-items-center gap-2"
+          >
+            <img src="./assets/reviews/first.png" alt="" />
+            <div class="review-data">
+              <p class="review-name m-0">Rosele Desoza</p>
+              <p class="review-position m-0">Marketing Coordinator</p>
+            </div>
+          </div>
+          <div
+            class="review-card d-flex justify-content-center align-items-center gap-2"
+          >
+            <img src="./assets/reviews/first.png" alt="" />
+            <div class="review-data">
+              <p class="review-name m-0">Rosele Desoza</p>
+              <p class="review-position m-0">Marketing Coordinator</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="reviews-right d-flex flex-column gap-4">
+          <h1>
+            What our Customers<br /><span class="reviews-right-red"
+              >are saying</span
+            >
+          </h1>
+          <div>
+            <div class="review-data d-flex justify-content-between">
+              <div class="reviw-user-stars">
+                <p class="review-name m-0">Rosele Desoza</p>
+                <p class="review-position m-0">Marketing Coordinator</p>
+              </div>
+              <img
+                class="reviews-right-star"
+                src="./assets/special/star.svg"
+                alt=""
+              />
+            </div>
+            <hr />
+          </div>
+
+          <p class="user-review">
+            “Having good restaurant reviews is crucial these days. It is not
+            just making our decision to pick one easier, it is also helping the
+            restaurant be more successful. You can quickly copy and paste these
+            good restaurant review examples, publish them on Facebook”
+          </p>
+        </div>
+      </div>
+
+      <div class="mobile-section rounded-2 d-flex">
+        <!-- <img src="./assets/mobile-section.png" alt="" /> -->
+        <div class="mobile-section-bg">
+          <div class="left-mobile-section">
+            <div class="mobile px-2">
+              <div class="nav-mobile d-flex justify-content-between my-1">
+                <img src="./assets/mobile-section/menu.svg" alt="" />
+                <img
+                  id="nav-mobile-menu"
+                  src="./assets/mobile-section/cart.svg"
+                  alt=""
+                />
+              </div>
+              <h3 class="fw-bold">Tasty Recipes</h3>
+              <div class="food-card-container d-flex gap-3">
+                <div class="food-card d-flex flex-column gap-1">
+                  <div class="d-flex justify-content-center">
+                    <img src="./assets/mobile-section/food-1.jpg" alt="" />
+                  </div>
+                  <p class="m-0 fw-semibold">Tasty Food</p>
+                  <img
+                    style="width: 70px; margin: 0"
+                    src="./assets/special/star.svg"
+                    alt=""
+                  />
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <p class="m-0">& 34.00</p>
+                    <img
+                      style="width: 40px"
+                      src="./assets/mobile-section/like.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="food-card d-flex flex-column gap-1">
+                  <div class="d-flex justify-content-center">
+                    <img
+                      id="second-food"
+                      src="./assets/mobile-section/food-3.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <p class="m-0 fw-semibold">Healthy Food</p>
+                  <img
+                    style="width: 70px; margin: 0"
+                    src="./assets/special/star.svg"
+                    alt=""
+                  />
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <p class="m-0">& 16.00</p>
+                    <img
+                      style="width: 40px"
+                      src="./assets/mobile-section/like.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="food-3 my-4 px-2 d-flex justify-content-between">
+                <div class="m-0">
+                  <p class="fw-semibold m-0">Healthy Food</p>
+                  <img
+                    class="m-0"
+                    style="height: 30px"
+                    src="./assets/mobile-section/Group 4362.svg"
+                    alt=""
+                  />
+                  <p class="m-0">& 31.00</p>
+                </div>
+                <img src="./assets/mobile-section/food-3.jpg" alt="" />
+              </div>
+
+              <div class="mobile-footer d-flex justify-content-between">
+                <div class="d-flex flex-column align-items-center">
+                  <img src="./assets/mobile-footer/Home.svg" alt="" />
+                  <p class="mobile-footer-text">Home</p>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="./assets/mobile-footer/Notification.svg" alt="" />
+                  <p class="mobile-footer-text">Notification</p>
+                </div>
+                <div
+                  class="mobile-footer-cart d-flex flex-column align-items-center"
+                >
+                  <img src="./assets/mobile-footer/icon 05.svg" alt="" />
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="./assets/mobile-footer/Heart.svg" alt="" />
+                  <p class="mobile-footer-text">Favorites</p>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="./assets/mobile-footer/Profile.svg" alt="" />
+                  <p class="mobile-footer-text">User</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-mobile-section">
+          <h3>
+            Never Feel Hungry!<br />
+            Download Our Mobile App<br />
+            Order Delicious Food
+          </h3>
+          <p>
+            Online ordering has enabled many restaurants<br />
+            to manage their peak business hours very effectively.
+          </p>
+          <div class="get-it">
+            <img src="./assets/button-App store.png" alt="" />
+            <img src="./assets/button-Play store.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="footer d-flex justify-content-between">
+        <div class="footer-col-1 d-flex gap-3 flex-column">
+          <img src="./assets/logo.png" alt="" />
+          <p>
+            Retail food delivery is a courier service in which a restaurant,
+            store, or independent food-delivery
+          </p>
+          <img
+            class="social-media"
+            src="./assets/Social media icon.png"
+            alt=""
+          />
+        </div>
+        <div class="footer-col d-flex flex-column gap-4 align-items-center">
+          <div class="footer-top">Company</div>
+          <div class="footer-bottom">
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">All Products</a></li>
+              <li><a href="#">Location Map</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-col d-flex flex-column gap-4 align-items-center">
+          <div class="footer-top">Services</div>
+          <div class="footer-bottom">
+            <ul>
+              <li><a href="#">Order Tracking</a></li>
+              <li><a href="#">Wish List</a></li>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Terms and Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-col d-flex flex-column gap-4 align-items-center">
+          <div class="footer-top">Support</div>
+          <div class="footer-bottom">
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Policy</a></li>
+              <li><a href="#">Business</a></li>
+              <li><a href="#">Support Center</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-col d-flex flex-column gap-4 align-items-center">
+          <div class="footer-top">Contact</div>
+          <div class="footer-bottom">
+            <ul>
+              <li><a href="#">Whatsapp</a></li>
+              <li><a href="#">Support 24</a></li>
+              <li><a href="#">Quick Chat</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
